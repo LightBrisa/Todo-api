@@ -1,0 +1,34 @@
+# ---- Java & Build ----
+target/
+*.class
+*.log
+
+# ---- Maven ----
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# 保留 Maven Wrapper（建议提交）
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+out/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
